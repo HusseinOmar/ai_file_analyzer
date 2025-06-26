@@ -1,0 +1,20 @@
+	1.	Julia Schneider – Product Manager
+Berlin, Germany | +49 30 9876 5432 | CET (UTC+1)
+	2.	Miguel Santos – Frontend Developer
+Barcelona, Spain | +34 93 123 4567 | CET (UTC+1)
+	3.	Antoine Morel – Marketing Analyst
+Lyon, France | +33 4 5678 1234 | CET (UTC+1)
+	4.	Sean Murphy – Cybersecurity Engineer
+Cork, Ireland | +353 21 987 6543 | GMT (UTC+0)
+	5.	Jan Kowalski – QA Engineer
+Warsaw, Poland | +48 22 123 4567 | CET (UTC+1)
+	6.	Alessia Bianchi – Solutions Architect
+Milan, Italy | +39 02 1234 5678 | CET (UTC+1)
+	7.	Maria Ivanova – Data Scientist
+Varna, Bulgaria | +359 52 123 4567 | EET (UTC+2)
+	8.	Daniel Hoffmann – Business Analyst
+Munich, Germany | +49 89 1234 8765 | CET (UTC+1)
+	9.	Nikola Petrović – Site Reliability Engineer (SRE)
+Novi Sad, Serbia | +381 21 765 4321 | CET (UTC+1)
+	10.	Elif Yılmaz – AI/ML Engineer
+Izmir, Türkiye | +90 232 678 1234 | TRT (UTC+3)

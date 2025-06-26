@@ -1,0 +1,20 @@
+	1.	Anna Müller – Team Lead, Software Engineering
+Berlin, Germany | +49 30 1234 5678 | CET (UTC+1)
+	2.	Luis Fernández – Backend Developer
+Madrid, Spain | +34 91 234 5678 | CET (UTC+1)
+	3.	Clara Dupont – UX Designer
+Paris, France | +33 1 2345 6789 | CET (UTC+1)
+	4.	James O’Connor – Cloud Infrastructure Engineer
+Dublin, Ireland | +353 1 234 5678 | GMT (UTC+0)
+	5.	Peter Novak – QA Engineer
+Prague, Czechia | +420 2 3456 7890 | CET (UTC+1)
+	6.	Sofia Rossi – Mobile Developer
+Rome, Italy | +39 06 9876 5432 | CET (UTC+1)
+	7.	Eva Petrova – Data Analyst
+Sofia, Bulgaria | +359 2 987 6543 | EET (UTC+2)
+	8.	Lena Schmidt – Scrum Master
+Munich, Germany | +49 89 8765 4321 | CET (UTC+1)
+	9.	Marko Jovanovic – DevOps Engineer
+Belgrade, Serbia | +381 11 123 4567 | CET (UTC+1)
+	10.	Aylin Demir – Frontend Developer
+Istanbul, Türkiye | +90 212 345 6789 | TRT (UTC+3)
