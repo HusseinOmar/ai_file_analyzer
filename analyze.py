@@ -41,7 +41,7 @@ def send_prompt(client, prompt, vector_store_id_list, previous_response_id=None)
             "vector_store_ids": vector_store_id_list
         }]
     )
-    print(response.output[1].content[0].text)
+    print(response.output_text)
     return response
 
 
