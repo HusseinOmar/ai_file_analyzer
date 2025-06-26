@@ -59,11 +59,13 @@ It accept certain file formats as following:
 **4- Add API Key to your OS environment**
 
 - **For macos users**
-  `export OPENAI_API_KEY="xxx"`
+
+`export OPENAI_API_KEY="xxx"`
 
 - **For Windows users**
 
 Export an environment variable in PowerShell
+
 `setx OPENAI_API_KEY "your_api_key_here"`
 
 ## Code Operation
@@ -72,5 +74,5 @@ Export an environment variable in PowerShell
 - Then you will choose the format of the file extension. You can choose one or more separated with commas
 - The application will search for all files in the folder with the specific extension
 - Next, you will choose one of two analysis method
-  - Method 1: Upload multiple files and analyze data in all files at once with single prompt
-  - Method 2: Analyze each file separately with the same prompt.
+  - **Method 1**: Upload multiple files and analyze data in all files at once with single prompt
+  - **Method 2**: Analyze each file separately with the same prompt.
