@@ -14,7 +14,7 @@ This python based application uses OpenAI API to search for information in files
 _It's quite cheap don't worry, only 5$ can last long time!!!!!_
 
 It accept certain file formats as following:
-|File Extension|Format MIME||
+|File Extension|Format MIME|
 |.c| text/x-c|
 |.cpp| text/x-c++|
 |.cs| text/x-csharp|
