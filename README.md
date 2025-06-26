@@ -76,3 +76,182 @@ Export an environment variable in PowerShell
 - Next, you will choose one of two analysis method
   - **Method 1**: Upload multiple files and analyze data in all files at once with single prompt
   - **Method 2**: Analyze each file separately with the same prompt.
+
+## Testing Code the methods
+
+I have included folder `team` which contains two files `team1.txt` and `team2.txt`. Each file contain list of names and we will use both methods to show to analyze these two files in different ways.
+
+**Method1**
+
+```
+==> Enter your choice (1 or 2): 1
+===================================================
+ ~~~~ Enter your prompt [type 'exit' to quit]: list the team memebr names?
+Here are the team members listed in the files:
+
+**Team 1:**
+1. Anna Müller – Team Lead, Software Engineering
+2. Luis Fernández – Backend Developer
+3. Clara Dupont – UX Designer
+4. James O’Connor – Cloud Infrastructure Engineer
+5. Peter Novak – QA Engineer
+6. Sofia Rossi – Mobile Developer
+7. Eva Petrova – Data Analyst
+8. Lena Schmidt – Scrum Master
+9. Marko Jovanovic – DevOps Engineer
+10. Aylin Demir – Frontend Developer
+
+**Team 2:**
+1. Julia Schneider – Product Manager
+2. Miguel Santos – Frontend Developer
+3. Antoine Morel – Marketing Analyst
+4. Sean Murphy – Cybersecurity Engineer
+5. Jan Kowalski – QA Engineer
+6. Alessia Bianchi – Solutions Architect
+7. Maria Ivanova – Data Scientist
+8. Daniel Hoffmann – Business Analyst
+9. Nikola Petrović – Site Reliability Engineer (SRE)
+10. Elif Yılmaz – AI/ML Engineer
+===================================================
+ ~~~~ Enter your prompt [type 'exit' to quit]: list memebers per country?
+Here are the team members listed by country:
+
+**Germany:**
+- Anna Müller – Team Lead, Software Engineering
+- Lena Schmidt – Scrum Master
+- Julia Schneider – Product Manager
+- Daniel Hoffmann – Business Analyst
+
+**Spain:**
+- Luis Fernández – Backend Developer
+- Miguel Santos – Frontend Developer
+
+**France:**
+- Clara Dupont – UX Designer
+- Antoine Morel – Marketing Analyst
+
+**Ireland:**
+- James O’Connor – Cloud Infrastructure Engineer
+- Sean Murphy – Cybersecurity Engineer
+
+**Czechia:**
+- Peter Novak – QA Engineer
+
+**Italy:**
+- Sofia Rossi – Mobile Developer
+- Alessia Bianchi – Solutions Architect
+
+**Bulgaria:**
+- Eva Petrova – Data Analyst
+- Maria Ivanova – Data Scientist
+
+**Serbia:**
+- Marko Jovanovic – DevOps Engineer
+- Nikola Petrović – Site Reliability Engineer (SRE)
+
+**Türkiye:**
+- Aylin Demir – Frontend Developer
+- Elif Yılmaz – AI/ML Engineer
+
+**Poland:**
+- Jan Kowalski – QA Engineer
+===================================================
+```
+
+**Method2**
+
+```
+Please choose a method:
+==> Enter your choice (1 or 2): 2
+===================================================
+ ~~~~ Enter your prompt [type 'exit' to quit]: what are the names?
+===> Processing team1.txt
+The names mentioned in the document are:
+
+1. Anna Müller
+2. Luis Fernández
+3. Clara Dupont
+4. James O’Connor
+5. Peter Novak
+6. Sofia Rossi
+7. Eva Petrova
+8. Lena Schmidt
+9. Marko Jovanovic
+10. Aylin Demir.
+===> Processing team2.txt
+Here are the names from the document:
+
+1. Julia Schneider
+2. Miguel Santos
+3. Antoine Morel
+4. Sean Murphy
+5. Jan Kowalski
+6. Alessia Bianchi
+7. Maria Ivanova
+8. Daniel Hoffmann
+9. Nikola Petrović
+10. Elif Yılmaz.
+===================================================
+ ~~~~ Enter your prompt [type 'exit' to quit]: list the team members per coutnry?
+===> Processing team1.txt
+Here are the team members listed by country:
+
+- **Germany**
+  - Anna Müller – Team Lead, Software Engineering
+  - Lena Schmidt – Scrum Master
+
+- **Spain**
+  - Luis Fernández – Backend Developer
+
+- **France**
+  - Clara Dupont – UX Designer
+
+- **Ireland**
+  - James O’Connor – Cloud Infrastructure Engineer
+
+- **Czechia**
+  - Peter Novak – QA Engineer
+
+- **Italy**
+  - Sofia Rossi – Mobile Developer
+
+- **Bulgaria**
+  - Eva Petrova – Data Analyst
+
+- **Serbia**
+  - Marko Jovanovic – DevOps Engineer
+
+- **Türkiye**
+  - Aylin Demir – Frontend Developer.
+===> Processing team2.txt
+Here are the team members listed by country:
+
+- **Germany**
+  - Julia Schneider – Product Manager
+  - Daniel Hoffmann – Business Analyst
+
+- **Spain**
+  - Miguel Santos – Frontend Developer
+
+- **France**
+  - Antoine Morel – Marketing Analyst
+
+- **Ireland**
+  - Sean Murphy – Cybersecurity Engineer
+
+- **Poland**
+  - Jan Kowalski – QA Engineer
+
+- **Italy**
+  - Alessia Bianchi – Solutions Architect
+
+- **Bulgaria**
+  - Maria Ivanova – Data Scientist
+
+- **Serbia**
+  - Nikola Petrović – Site Reliability Engineer (SRE)
+
+- **Türkiye**
+  - Elif Yılmaz – AI/ML Engineer.
+===================================================
+```
