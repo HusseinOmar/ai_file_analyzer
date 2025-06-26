@@ -2,15 +2,16 @@
 
 ## Introduction
 
-This python based application uses OpenAI API to search for information in files, it uses gpt-4o model but you can change it inside the code .
+This python based application uses OpenAI API to search for information in files, it uses `gpt-4o` model but you can change it inside the code .
 
-Requirements:
-1- OpenAI Plaftform Account Login or Sign Up from https://auth.openai.com/log-in
-2- API Key: You can obtain it from https://platform.openai.com/settings/organization/api-keys
-3- Add Billing information from https://platform.openai.com/settings/organization/billing/payment-methods
-4- Pricing inforamtion is here https://platform.openai.com/docs/pricing
+**Requirements:**
 
-It's quite cheap don't worry, only 5$ can last long time.
+- OpenAI Plaftform Account Login or Sign Up from https://auth.openai.com/log-in
+- API Key: You can obtain it from https://platform.openai.com/settings/organization/api-keys
+- Add Billing information from https://platform.openai.com/settings/organization/billing/payment-methods
+- Pricing inforamtion is here https://platform.openai.com/docs/pricing
+
+_It's quite cheap don't worry, only 5$ can last long time!!!!!_
 
 It accept certain file formats as following:
 File formatMIME type
