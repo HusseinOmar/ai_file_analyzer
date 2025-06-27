@@ -18,47 +18,33 @@ _It's quite cheap don't worry, only 5$ can last long time!!!!!_
 It accept certain file formats as following:
 
 | File Extension |                                Format MIME                                |
-| :------------- | :-----------------------------------------------------------------------: |
-| .c             |                                 text/x-c                                  |
-| .cpp           |                                text/x-c++                                 |
-| .cs            |                               text/x-csharp                               |
-| .css           |                                 text/css                                  |
-| .doc           |                            application/msword                             |
-| .docx          |  application/vnd.openxmlformats-officedocument.wordprocessingml.document  |
-| .go            |                               text/x-golang                               |
-| .html          |                                 text/html                                 |
-| .java          |                                text/x-java                                |
-| .js            |                              text/javascript                              |
-| .json          |                             application/json                              |
-| .md            |                               text/markdown                               |
-| .pdf           |                              application/pdf                              |
-| .php           |                                text/x-php                                 |
-| .pptx          | application/vnd.openxmlformats-officedocument.presentationml.presentation |
-| .py            |                               text/x-python                               |
-| .py            |                           text/x-script.python                            |
-| .rb            |                                text/x-ruby                                |
-| .sh            |                             application/x-sh                              |
-| .tex           |                                text/x-tex                                 |
-| .ts            |                          application/typescript                           |
-| .txt           |                                text/plain`                                |
+| :------------: | :-----------------------------------------------------------------------: |
+|       .c       |                                 text/x-c                                  |
+|      .cpp      |                                text/x-c++                                 |
+|      .cs       |                               text/x-csharp                               |
+|      .css      |                                 text/css                                  |
+|      .doc      |                            application/msword                             |
+|     .docx      |  application/vnd.openxmlformats-officedocument.wordprocessingml.document  |
+|      .go       |                               text/x-golang                               |
+|     .html      |                                 text/html                                 |
+|     .java      |                                text/x-java                                |
+|      .js       |                              text/javascript                              |
+|     .json      |                             application/json                              |
+|      .md       |                               text/markdown                               |
+|      .pdf      |                              application/pdf                              |
+|      .php      |                                text/x-php                                 |
+|     .pptx      | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+|      .py       |                               text/x-python                               |
+|      .py       |                           text/x-script.python                            |
+|      .rb       |                                text/x-ruby                                |
+|      .sh       |                             application/x-sh                              |
+|      .tex      |                                text/x-tex                                 |
+|      .ts       |                          application/typescript                           |
+|      .txt      |                                text/plain`                                |
 
 ## Installation
 
-**1- Create virtual enviroment**
-
-`python3 -m venv venv`
-
-`source venv/bin/activate`
-
-**2- Install requirements**
-
-`pip install -r requirements.txt`
-
-**3- run program**
-
-`python analyze.py`
-
-**4- Add API Key to your OS environment**
+**1- Add API Key to your OS environment**
 
 - **For macos users**
 
@@ -69,6 +55,20 @@ It accept certain file formats as following:
 Export an environment variable in PowerShell
 
 `setx OPENAI_API_KEY "your_api_key_here"`
+
+**2- Create virtual enviroment**
+
+`python3 -m venv venv`
+
+`source venv/bin/activate`
+
+**3- Install requirements**
+
+`pip install -r requirements.txt`
+
+**4- run program**
+
+`python analyze.py`
 
 ## Code Operation
 
