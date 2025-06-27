@@ -2,6 +2,8 @@
 
 ## Introduction
 
+# DO NOT USE CONFIDENTIAL INFORMATION
+
 This python based application uses OpenAI API to search for information in files, it uses `gpt-4o` model but you can change it inside the code .
 
 This application will accept multiple subsequent prompts and will retain the conversion history.
