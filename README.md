@@ -48,7 +48,7 @@ It accept certain file formats as following:
 
 - **For macos users**
 
-`export OPENAI_API_KEY="xxx"`
+`export OPENAI_API_KEY="your_api_key_here"`
 
 - **For Windows users**
 
